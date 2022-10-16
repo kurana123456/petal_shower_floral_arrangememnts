@@ -199,7 +199,7 @@ header #toggler{
     min-height: 100vh;
     background: url(../petalshower_floral_arrangement/images/small_banner.jpg) no-repeat;
     background-size: cover;
-    background-position: center;
+    background-position: relative;
 }
 
 .home .content{
@@ -285,6 +285,7 @@ header #toggler{
     padding-top: 1rem;
     padding-bottom: .5rem;
     line-height: 1.5rem;
+    text-transform: regular;
 }
 
 /*About us ends here*/
