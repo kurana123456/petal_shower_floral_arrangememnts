@@ -195,7 +195,7 @@ header #toggler{
 
 .home{
     display: flex;
-    align-items: right;
+    align-items: center;
     min-height: 100vh;
     background: url(../petalshower_floral_arrangement/images/small_banner.jpg) no-repeat;
     background-size: cover;
