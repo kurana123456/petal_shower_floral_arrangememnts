@@ -193,11 +193,11 @@ header #toggler{
 
 /*HOME SECTION*/
 
-.home img{
+.home{
     display: flex;
     align-items: center;
     min-height: 100vh;
-    /*background: url(../petalshower_floral_arrangement/images/small_banner.jpg) no-repeat;*/
+    background: url(../petalshower_floral_arrangement/images/small_banner.jpg);
     background-size: cover;
     background-position: center;
 }
