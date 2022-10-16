@@ -195,12 +195,11 @@ header #toggler{
 
 .home{
     display: flex;
-    align-items: center;
+    align-items: right;
     min-height: 100vh;
     background: url(../petalshower_floral_arrangement/images/pexels-jess-bailey-designs-1172849.jpg) no-repeat;
     background-size: cover;
     background-position: center;
-    opacity: 100%;
 }
 
 .home .content{
