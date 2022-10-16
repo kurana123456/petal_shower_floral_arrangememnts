@@ -200,7 +200,7 @@ header #toggler{
     background: url(../petalshower_floral_arrangement/images/banner3.jpg) no-repeat;
     background-size: cover;
     background-position: center;
-    opacity: 1%;
+    opacity: 100%;
 }
 
 .home .content{
