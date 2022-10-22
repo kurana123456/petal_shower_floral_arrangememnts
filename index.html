@@ -19,26 +19,28 @@
 <!--Header begins here-->  
 
 <header>
-    <input type="checkbox" name="" id="toggler">
+    <input type="hidden" name="" id="toggler">
     <label for="toggler" class="fas fa-bars"></label>
 
     <div class="logo">
         <a href="index.html"><img src="images/PetalShower_logo_1_.png" alt="logo"></a>
     </div>
     <nav class="navbar">
-        <a href="#home">Home</a>
+        <a href="index.html">Home</a>
         <a href="#about_us">About Us</a>
         <a href="#assortment">Assortments</a>
         <a href="contact_us.html" target="_blank">Contact Us</a>
         <a href="other.html" target="_blank">Other</a>
     </nav>
 
-    <li class="search-icon">
-        <input type="search" placeholder="Search here">
-        <label class="icon">
-            <span class="fas fa-search"></span>
-        </label>
-    </li>
+    <div class="search-icon">
+        <form action="https://www.google.com/search" target="_blank" method="get" class="search">
+            <input type="search" placeholder="Search here" name="q">
+            <label class="icon">
+                <span class="fas fa-search"></span>
+            </label>
+        </form>    
+    </div>
 
     <div class="icons">
         <a href="#" class="fas fa-heart"></a>
@@ -78,7 +80,7 @@
             <p>Petal Shower Floral Arrangements was established in 2021 by Ms. Maria Robinson when she realized that she was unable to get beautifully arranged bouquets from locally grown flower blossoms.</p>
             <p>Having been exposed to horticulture at a young age and understanding some of the challenges farmers can face she decided to create her business and support local horticulturists.</p>
             <p>All while reintroducing the love of ‘real’ flowers again to the public and showing how they can be used in a variety of arrangements for various events. </p>
-        <a href="about_us.hmtl" target="_blank" class="butn">Learn More</a>
+        <a href="about_us.html" target="_blank" class="butn">Learn More</a>
     </div>
     </div>
 </section>
