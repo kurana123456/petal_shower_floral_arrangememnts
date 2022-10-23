@@ -135,7 +135,7 @@ header .search-icon .search{
     width:70px;
     display: flex;
     background: #999;
-    border-radius: 5px;
+    border-radius: 10px;
     margin-left: -80px;
 }
 
